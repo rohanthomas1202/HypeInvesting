@@ -10,10 +10,10 @@ from flair.data import Sentence
 
 class Twitter:
     def __init__(self):
-        consumer_key = '3Qss3R71D2jkhYFy5QfXeqBmE'
-        consumer_secret = 'B6NDgZktTtbd1PrwGCCizDIPXFSFdmvhAh4PfKT6cUFhKpj7Xg'
-        access_token = '1459612052939427841-GTCsDujq0SqVuNvahK5HLhpQUMfHc9'
-        access_token_secret = '1yLZuIt7nEByLDRXWlaI0GGBrWRCUOHoqVwctY3pYafec'
+        consumer_key = 'Twitter'
+        consumer_secret = 'Twitter'
+        access_token = 'Twitter'
+        access_token_secret = 'Twitter'
         self.auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         self.auth.set_access_token(access_token, access_token_secret)
         self.api = tweepy.API(self.auth, wait_on_rate_limit=True)
