@@ -27,7 +27,7 @@ def testing():
     # Find the stock information
     import requests
     response = requests.get(
-        'https://api.polygon.io/v1/meta/symbols/' + stock_tkr + '/company?apiKey=0ip9Jo9miAua0zJYVDvjjDIAluVzRJJX')
+        'https://api.polygon.io/v1/meta/symbols/' + stock_tkr + '/company?apiKey=polygon_api')
 
     stock_details = response.json()
     
@@ -63,10 +63,10 @@ def testing():
 
     class Reddit:
         def __init__(self):
-            username = 'HypeInvestingHackUTD'
-            password = 'ThisIsAPassword!'
-            app_id = '7jx9da8y5_4_FbxQ0A65VA'
-            app_secret = 'oSKq8ALe3NaROKX3haVImKNTBiZrrg'
+            username = "HackUTD'
+            password = 'Password!'
+            app_id = 'Reddit'
+            app_secret = 'Reddit'
             self.reddit = praw.Reddit(
                 user_agent="Comment Extraction by HypeInvestingHackUTD",
                 client_id=app_id,
@@ -93,10 +93,10 @@ def testing():
 
     class Twitter:
         def __init__(self):
-            consumer_key = '3Qss3R71D2jkhYFy5QfXeqBmE'
-            consumer_secret = 'B6NDgZktTtbd1PrwGCCizDIPXFSFdmvhAh4PfKT6cUFhKpj7Xg'
-            access_token = '1459612052939427841-GTCsDujq0SqVuNvahK5HLhpQUMfHc9'
-            access_token_secret = '1yLZuIt7nEByLDRXWlaI0GGBrWRCUOHoqVwctY3pYafec'
+            consumer_key = 'Twitter'
+            consumer_secret = 'Twitter'
+            access_token = 'Twitter'
+            access_token_secret = 'Twitter'
             self.auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
             self.auth.set_access_token(access_token, access_token_secret)
             self.api = tweepy.API(self.auth, wait_on_rate_limit=True)
@@ -119,7 +119,7 @@ def testing():
 
     class Youtube:
         def __init__(self):
-            YOUTUBE_API_KEY = "AIzaSyB74mxAEK_V0tCoh5R0Qh3G9x688xa3JFo"
+            YOUTUBE_API_KEY = "Youtube"
             self.youtube = build('youtube','v3',developerKey = YOUTUBE_API_KEY)
 
         def getMessages(self, topic):
@@ -165,7 +165,7 @@ def testing():
             return messages
     class News:
         def __init__(self):
-            key = '67e2b64352e14eb4af0a5517e50e6379'
+            key = 'News'
             self.api = NewsApiClient(api_key=key)
 
         def getMessages(self, topic):
