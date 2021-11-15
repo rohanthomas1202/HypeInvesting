@@ -5,7 +5,7 @@ from flair.data import Sentence
 
 class News:
     def __init__(self):
-        key = '67e2b64352e14eb4af0a5517e50e6379'
+        key = 'News'
         self.api = NewsApiClient(api_key=key)
 
     def getMessages(self, topic):
