@@ -8,7 +8,7 @@ Created on Sat Nov 13 21:07:15 2021
 
 from apiclient.discovery import build
 
-YOUTUBE_API_KEY = "AIzaSyB74mxAEK_V0tCoh5R0Qh3G9x688xa3JFo"
+YOUTUBE_API_KEY = "Youtube-API"
 
 youtube = build('youtube','v3',developerKey = YOUTUBE_API_KEY)
 

@@ -53,10 +53,10 @@ class Reddit:
 
 class Twitter:
     def __init__(self):
-        consumer_key = '3Qss3R71D2jkhYFy5QfXeqBmE'
-        consumer_secret = 'B6NDgZktTtbd1PrwGCCizDIPXFSFdmvhAh4PfKT6cUFhKpj7Xg'
-        access_token = '1459612052939427841-GTCsDujq0SqVuNvahK5HLhpQUMfHc9'
-        access_token_secret = '1yLZuIt7nEByLDRXWlaI0GGBrWRCUOHoqVwctY3pYafec'
+        consumer_key = 'Twitter_API'
+        consumer_secret = 'Twitter_API'
+        access_token = 'Twitter_API'
+        access_token_secret = 'Twitter_API'
         self.auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         self.auth.set_access_token(access_token, access_token_secret)
         self.api = tweepy.API(self.auth, wait_on_rate_limit=True)
@@ -78,7 +78,7 @@ class Twitter:
     
 class Youtube:
     def __init__(self):
-        YOUTUBE_API_KEY = "AIzaSyB74mxAEK_V0tCoh5R0Qh3G9x688xa3JFo"
+        YOUTUBE_API_KEY = "YOUTUBE_API"
         self.youtube = build('youtube','v3',developerKey = YOUTUBE_API_KEY)
 
     def getMessages(self, topic):
@@ -121,7 +121,7 @@ class Youtube:
 
 class News:
     def __init__(self):
-        key = '67e2b64352e14eb4af0a5517e50e6379'
+        key = 'News-Api'
         self.api = NewsApiClient(api_key=key)
 
     def getMessages(self, topic):

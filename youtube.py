@@ -11,7 +11,7 @@ from flair.data import Sentence
 
 class Youtube:
     def __init__(self):
-        YOUTUBE_API_KEY = "AIzaSyB74mxAEK_V0tCoh5R0Qh3G9x688xa3JFo"
+        YOUTUBE_API_KEY = "YOUTUBE-API"
         self.youtube = build('youtube','v3',developerKey = YOUTUBE_API_KEY)
 
     def getMessages(self, topic):
