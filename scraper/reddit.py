@@ -5,10 +5,10 @@ from flair.data import Sentence
 
 class Reddit:
     def __init__(self):
-        username = 'HypeInvestingHackUTD'
-        password = 'ThisIsAPassword!'
-        app_id = '7jx9da8y5_4_FbxQ0A65VA'
-        app_secret = 'oSKq8ALe3NaROKX3haVImKNTBiZrrg'
+        username = 'HackUTD'
+        password = 'Password!'
+        app_id = 'Reddit'
+        app_secret = 'Reddit'
         self.reddit = praw.Reddit(
             user_agent="Comment Extraction by HypeInvestingHackUTD",
             client_id=app_id,
