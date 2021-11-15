@@ -39,8 +39,6 @@ As a whole, we learned a lot about how to access and utilize APIs overall. We al
 There are many ways to build up HypeInvest to be even more accurate. If we had time to create a custom dataset of stock-specific statements and their respective sentiments, we could train a custom Flair model with the dataset and more accurately determine where a statement is positive or negative toward a company.
 
 HypeInvest could also have its own dedicated back-end datatable to retain and update hype information about many of the most popular stocks. This would both make calculations faster and give us access to historical hype data, which could be used to make better predictions. With enough of this data, we could even utilize machine learning to best determine how patterns in hype correlate with a stock rising or falling.<img width="1792" alt="Screen_Shot_2021-11-14_at_1 31 47_PM" src="https://user-images.githubusercontent.com/47799137/141816514-ce1de958-5f1a-486d-b132-5c7b9a7d63d7.png">
-<img width="1732" alt="Sc
+
 
 https://user-images.githubusercontent.com/47799137/141816650-89520d7c-60b5-4ff1-aa86-1d4948a68b8a.mp4
-
-reen_Shot_2021-11-14_at_12 41 17_AM" src="https://user-images.githubusercontent.com/47799137/141816519-52d2d490-5cd4-4f73-89c2-3795c99a323c.png">
