@@ -1,3 +1,5 @@
+# HYPEINVEST
+
 ## Inspiration
 
 As the world of investing becomes more competitive, so too must stock market prediction algorithms that guide investors. Traditional stock market prediction algorithms generally don't use information from social media or the news in their predictions. This is a significant weakness for these predictions, as they ignore a major component of why many people choose to invest in a company. If a company is both talked about and is viewed positively, more people are inclined to support the company by investing in it. This is the major inspiration for HypeInvest.
